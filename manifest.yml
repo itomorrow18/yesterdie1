@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: yesterdie
+  host: yesterdie
+  disk_quota: 1024M
+  services:
+  - yesterdie-cloudantNoSQLDB
+  - yesterdie-iotf-service
